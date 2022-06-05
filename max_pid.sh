@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cat ./proc/sys/kernel/pid_max
+cat < /proc/sys/kernel/pid_max
